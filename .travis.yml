@@ -11,6 +11,5 @@ after_success:
     - coveralls
 notifications:
   email: false
-  notifications:
-    irc:
-      - "chat.freenode.net#dadosgovbr"
+  irc:
+    - "chat.freenode.net#dadosgovbr"
