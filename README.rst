@@ -5,29 +5,6 @@
 .. image:: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema.svg?branch=master
     :target: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema
 
-.. image:: https://coveralls.io/repos/dadosgovbr/ckanext-dadosgovbrschema/badge.svg
-  :target: https://coveralls.io/r/dadosgovbr/ckanext-dadosgovbrschema
-
-.. image:: https://pypip.in/download/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-dadosgovbrschema/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: License
-
 =============
 ckanext-dadosgovbrschema
 =============
