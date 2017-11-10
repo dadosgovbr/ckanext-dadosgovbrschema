@@ -1,10 +1,6 @@
 .. image:: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema.svg?branch=master
     :target: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema
 
-.. image:: https://coveralls.io/repos/github/dadosgovbr/ckanext-dadosgovbrschema/badge.svg?branch=master
-    :target: https://coveralls.io/github/dadosgovbr/ckanext-dadosgovbrschema?branch=master
-
-
 =============
 ckanext-dadosgovbrschema
 =============

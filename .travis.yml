@@ -9,3 +9,7 @@ install:
 script: sh bin/travis-run.sh
 after_success:
     - coveralls
+notifications:
+  email: false
+  irc:
+    - "chat.freenode.net#dadosgovbr"
