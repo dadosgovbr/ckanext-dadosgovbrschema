@@ -1,40 +1,15 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
 .. image:: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema.svg?branch=master
     :target: https://travis-ci.org/dadosgovbr/ckanext-dadosgovbrschema
 
-.. image:: https://coveralls.io/repos/dadosgovbr/ckanext-dadosgovbrschema/badge.svg
-  :target: https://coveralls.io/r/dadosgovbr/ckanext-dadosgovbrschema
+.. image:: https://coveralls.io/repos/github/dadosgovbr/ckanext-dadosgovbrschema/badge.svg?branch=master
+    :target: https://coveralls.io/github/dadosgovbr/ckanext-dadosgovbrschema?branch=master
 
-.. image:: https://pypip.in/download/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-dadosgovbrschema/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-dadosgovbrschema/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-dadosgovbrschema/
-    :alt: License
 
 =============
 ckanext-dadosgovbrschema
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+Implementation of a schema, using the ckanext-schema extension, for the Brazilian Open Data Portal. 
 
 
 ------------
