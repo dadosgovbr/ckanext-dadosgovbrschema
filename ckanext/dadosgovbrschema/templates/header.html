@@ -1,0 +1,47 @@
+{% ckan_extends %}
+
+
+{% block header_account_logged %}
+<style>
+#packagesTypesDropdown li a {
+    color:#333;
+}
+#packagesTypesDropdown li a:hover {
+    color:#eee;
+}
+#packagesTypesDropdown li a:focus {
+    color:#eee;
+}
+</style>
+<li>
+    <a onclick="$('#packagesTypesDropdown').toggle()" href="#" title="{{'pacotes'|title}}">
+        <span>{{'pacotes'|title}} <i class="icon-chevron-down" aria-hidden="true" style="font-size: 12px;"></i></span>
+    </a>
+    <div class="dropdown">
+        <ul class="dropdown-menu" role="menu" id="packagesTypesDropdown">
+            <li style="float: none; border: 0;">
+                <a tabindex="-1" href="/dataset" title="{{'dados'|title}}">
+                    <span>{{'dados'|title}}</span>
+                </a>
+            </li>
+            <li class="divider" style="float: none; border: 0;"></li>
+            <li style="float: none; border: 0;">
+                <a tabindex="-1" href="/aplicativos" title="{{'aplicativos'|title}}">
+                    <span>{{'aplicativos'|title}}</span>
+                </a>
+            </li>
+            <li style="float: none; border: 0;">
+                <a tabindex="-1" href="/concursos" title="{{'concursos'|title}}">
+                    <span>{{'concursos'|title}}</span>
+                </a>
+            </li>
+            <li style="float: none; border: 0;">
+                <a tabindex="-1" href="/inventarios" title="{{'inventarios'|title}}">
+                    <span>{{'inventarios'|title}}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
+{{ super() }}
+{% endblock %}
