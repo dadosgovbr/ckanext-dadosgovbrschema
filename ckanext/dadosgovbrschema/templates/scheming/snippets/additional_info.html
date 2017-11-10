@@ -9,7 +9,7 @@
     'license_id',
     'owner_org',
     ] -%}
-{% set schema = h.scheming_get_schema('dataset', h.dadosgovbr_get_schema_name()) %}
+{% set schema = h.scheming_get_schema('dataset', h.dadosgovbrschema_get_schema_name()) %}
 
 {% block package_additional_info %}
   {%- for field in schema.dataset_fields -%}

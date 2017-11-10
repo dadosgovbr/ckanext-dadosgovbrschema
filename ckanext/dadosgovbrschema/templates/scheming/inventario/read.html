@@ -1,8 +1,8 @@
 {% extends "scheming/inventario/read_base.html" %}
 
 {% block breadcrumb_content %}
-  <li><a href="{{h.url_for('home','index')}}{{h.dadosgovbr_get_schema_name()}}">{{h.dadosgovbr_get_schema_title(plural=True).title()}}</a></li>
-  <li><a class="active" href="{{h.url_for('home','index')}}{{h.dadosgovbr_get_schema_name()}}/{{pkg.name}}">{{pkg.title|safe}}</a></li>
+  <li><a href="{{h.url_for('home','index')}}{{h.dadosgovbrschema_get_schema_name()}}">{{h.dadosgovbrschema_get_schema_title(plural=True).title()}}</a></li>
+  <li><a class="active" href="{{h.url_for('home','index')}}{{h.dadosgovbrschema_get_schema_name()}}/{{pkg.name}}">{{pkg.title|safe}}</a></li>
 {% endblock %}
 
 {% block primary_content_inner %}

@@ -17,7 +17,7 @@
 
 {% block content_primary_nav %}
   <li {% if c.action=='read' %} class="active" {% endif %}>
-    <a href="/{{h.dadosgovbr_get_schema_name()}}/{{pkg.name}}"><i class="icon-sitemap"></i> {{h.dadosgovbr_get_schema_title().title()}}</a>
+    <a href="/{{h.dadosgovbrschema_get_schema_name()}}/{{pkg.name}}"><i class="icon-sitemap"></i> {{h.dadosgovbrschema_get_schema_title().title()}}</a>
   </li>
   {% if c.userobj.sysadmin %}
     {{ h.build_nav_icon('dataset_groups', _('Groups'), id=pkg.name) }}
