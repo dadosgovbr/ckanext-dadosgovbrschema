@@ -1,0 +1,22 @@
+{% set pkg = c.app_dict %}
+
+<div class="ui four column doubling grid container app-modal">
+    <div class="three wide computer nine wide tablet six wide mobile column">
+        <img class="img-main" src="{{pkg.image|safe}}" alt="{{pkg.title|safe}}">
+    </div>
+    <div class="six wide computer three wide tablet six wide mobile column">
+        <a href="mailto:{{pkg.author_email|safe}}">{{pkg.author_name|safe}}</a>
+    </div>
+    <div class="six wide computer three wide tablet six wide mobile column">
+        {{pkg.description|safe}}
+    </div>
+</div>
+
+<div class="ui segment">
+    {% block package_additional_info %}
+        {% snippet "package/snippets/additional_info.html", pkg_dict=pkg %}
+    {% endblock %}
+</div>
+
+Informações do aplicativo aqui...<br>
+{{pkg.title|safe}}
